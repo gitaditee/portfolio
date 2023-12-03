@@ -66,6 +66,42 @@ main{
 #logo{
     margin-left: 100px;
 }
+.profile{
+    margin-top: 400px;
+}
+#techp{
+    color: white;
+    
+    margin-top: 150px;
+    margin-left: 550px;
+    transition: 0.3s;
+}
+#techp:hover{
+    text-decoration: underline;
+    color: yellow;
+   text-shadow:2px 2px 5px rgb(175, 175, 36);
+}
+#gfg{
+    border-radius: 50%;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+    transition-property: all;
+}
+#gfg:hover{
+    box-shadow:2px 2px 5px rgb(175, 175, 36);
+}
+#digital{
+    width: 400px;
+    border-radius: 20%;
+    height: 500px;
+    margin-left: 300px;
+    transition-property: all;
+}
+#digital:hover{
+    box-shadow:10px 10px 10px rgb(175, 175, 36);
+}
 .about{
     display: flex;
     align-items: center;
@@ -73,6 +109,15 @@ main{
     flex-direction: row;
     width: 100%;
    
+}
+#about{
+    color: white;
+    overflow: auto;
+    height: 500px;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: large;
 }
 #about_me:hover{
     color: yellow;
@@ -98,7 +143,7 @@ ul{
     height: auto;
     border: 3px solid yellow;
     margin-left: 500px;
-    margin-top: 400px;
+    margin-top: 100px;
     padding: 15px 10px;
 }
 #frame_img{
@@ -322,6 +367,22 @@ ul{
     padding: 25px;
     width: 400px;
     height: 400px;
+ }
+#opens{
+    color: white; 
+    text-align: center;
+    transition-property: all;
+    
+    justify-content:centre;
+    margin-top: 100px;
+    margin-left: 20px;
+    
+    padding: 25px;
+ }
+ #opens:hover{
+     text-decoration: underline;
+     color: yellow;
+    text-shadow:2px 2px 5px rgb(175, 175, 36);
  }
 footer{
  background-color: black;
